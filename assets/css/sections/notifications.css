@@ -1,0 +1,79 @@
+#notifications {
+    background-color: #F3F3F3;
+    background-image: url(../../images/sections/notifications/background.svg);
+    position: relative;
+}
+#notifications:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background:
+            url(../../images/sections/notifications/iPhone_X.png),
+            url(../../images/sections/notifications/MacBook.png);
+    background-position: 80% 250%, 300% 85%;
+    background-size: 200px auto, auto 70%;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+#notifications.active:before {
+    background-position: 80% 95%, 150% 85%;
+}
+
+#list-of-notification-types.nav-tabs {
+    border-bottom: 0;
+}
+#list-of-notification-types.nav-tabs .nav-link {
+    border-width: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 80px;
+}
+.nav-link[href="#notifications_push"] {
+    background-image: url(../../images/sections/notifications/notification-push.svg);
+}
+.nav-link[href="#notifications_sms"] {
+    background-image: url(../../images/sections/notifications/notification-sms.svg);
+}
+.nav-link[href="#notifications_email"] {
+    background-image: url(../../images/sections/notifications/notification-email.svg);
+}
+.nav-link.active[href="#notifications_push"] {
+    background-image: url(../../images/sections/notifications/notification-push_active.svg);
+}
+.nav-link.active[href="#notifications_sms"] {
+    background-image: url(../../images/sections/notifications/notification-sms_active.svg);
+}
+.nav-link.active[href="#notifications_email"] {
+    background-image: url(../../images/sections/notifications/notification-email_active.svg);
+}
+
+#list-of-notification-types.nav-tabs .nav-item.show .nav-link,
+#list-of-notification-types.nav-tabs .nav-link.active {
+    background-color: transparent;
+}
+
+#list-of-notification-types {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2.4rem;
+}
+#list-of-notification-types>li {
+    margin-right: 36px;
+}
+
+.list-style-arrow {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+.list-style-arrow>li {
+    padding-left: 60px;
+    background: url(../../images/sections/notifications/arrow-right.svg) no-repeat 15px center;
+    margin-bottom: 40px;
+}

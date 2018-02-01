@@ -1,0 +1,19 @@
+.logo-link {
+    position: relative;
+}
+.logo-delimiter {
+    height: 38px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #000000;
+    margin: 0 24px;
+}
+
+#header {
+    transition: all 1s ease;
+}
+
+.fp-viewing-0 #header,
+.fp-viewing-1 #header {
+    filter: brightness(0) invert(1);
+}

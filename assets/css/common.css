@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main>div,
+section {
+    background-size: cover;
+    background-position: center;
+}
+
+section.section,
+section.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, .h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2, h2.h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h3, .h3 {
+    margin-bottom: 2.4rem;
+}
+
+
+ul.row {
+    list-style: none;
+}

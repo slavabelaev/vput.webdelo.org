@@ -1,0 +1,9 @@
+body {
+    background-image: url(../../images/sections/project/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#project_starter,
+#project_statistics {
+    background-color: transparent;
+}

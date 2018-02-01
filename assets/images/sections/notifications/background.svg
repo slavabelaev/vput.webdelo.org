@@ -1,0 +1,21 @@
+<svg width="1440" height="882" viewBox="0 0 1440 882" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>background</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7727 -1015)">
+<g id="background">
+<g id="Rectangle 4" opacity="0.346864">
+<use xlink:href="#path0_fill" transform="translate(7697 1812)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6" opacity="0.0372509">
+<use xlink:href="#path1_fill" transform="matrix(0.809017 -0.587785 0.587785 0.809017 8465 851.854)" fill="#36A8C8"/>
+</g>
+<g id="Rectangle 6 Copy" opacity="0.0685575">
+<use xlink:href="#path1_fill" transform="matrix(0.809017 -0.587785 0.587785 0.809017 7415 1882.85)" fill="#E67963"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 1475 0L 1475 85L 0 85L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 100C 0 44.7715 44.7715 0 100 0L 747 0C 802.228 0 847 44.7715 847 100L 847 777C 847 832.228 802.228 877 747 877L 100 877C 44.7715 877 0 832.228 0 777L 0 100Z"/>
+</defs>
+</svg>
