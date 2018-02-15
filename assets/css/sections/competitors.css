@@ -49,8 +49,8 @@
     left: 0;
     right: 0;
     bottom: -42px;
-    width: 22px;
-    height: 22px;
+    width: 21px;
+    height: 21px;
     margin: auto;
     border: 3px solid #32B1CC;
     border-radius: 50%;
@@ -200,5 +200,9 @@
     }
     .competitors__diagram>li:not(:last-child) .competitors__diagram__item:before {
         left: 350px;
+    }
+
+    #competitors__tabs {
+        margin-left: 400px;
     }
 }

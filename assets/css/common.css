@@ -28,10 +28,22 @@ h3, .h3 {
     margin-bottom: 2.4rem;
 }
 
-
 ul.row {
     list-style: none;
+    padding-left: 0;
 }
+
+[data-icon] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+[data-icon="apple"] { background-image: url(/assets/images/icons/apple.svg); }
+[data-icon="windows"] { background-image: url(/assets/images/icons/windows.svg); }
+[data-icon="android"] { background-image: url(/assets/images/icons/android.svg); }
 
 @media (max-width: 768px) {
     .section {

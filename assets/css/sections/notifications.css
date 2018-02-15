@@ -19,12 +19,15 @@
     transition: all 1s ease;
 }
 
+.c
+
 #notifications.active.fp-completely:before {
     background-position: 80% 95%, 150% 85%;
 }
 
 #list-of-notification-types.nav-tabs {
     border-bottom: 0;
+    max-width: 320px;
 }
 #list-of-notification-types.nav-tabs .nav-link {
     border-width: 0;
@@ -61,8 +64,10 @@
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 2.4rem;
+    display: flex;
+    justify-content: space-between;
 }
-#list-of-notification-types>li {
+#list-of-notification-types>li:not(:last-child) {
     margin-right: 36px;
 }
 

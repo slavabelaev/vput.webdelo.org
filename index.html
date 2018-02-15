@@ -51,7 +51,9 @@
             <ul id="list-of-stats" class="row justify-content-between">
                 <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/statistics/icon_vendors.svg" alt="Вендоры">
+                        <picture>
+                            <img src="assets/images/sections/statistics/icon_vendors.svg" alt="Вендоры">
+                        </picture>
                         <figcaption class="figure-caption">
                             <div class="stat-count">1280</div>
                             <div class="stat-name">вендоров</div>
@@ -61,7 +63,9 @@
                 </li>
                 <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/statistics/icon_apartments.svg" alt="Апартаменты">
+                        <picture>
+                            <img src="assets/images/sections/statistics/icon_apartments.svg" alt="Апартаменты">
+                        </picture>
                         <figcaption class="figure-caption">
                             <div class="stat-count">1800</div>
                             <div class="stat-name">апартаментов</div>
@@ -71,7 +75,9 @@
                 </li>
                 <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/statistics/icon_clients.svg" alt="Клиенты">
+                        <picture>
+                            <img src="assets/images/sections/statistics/icon_clients.svg" alt="Клиенты">
+                        </picture>
                         <figcaption class="figure-caption">
                             <div class="stat-count">5280</div>
                             <div class="stat-name">клиентов</div>
@@ -81,7 +87,9 @@
                 </li>
                 <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/statistics/icon_bookings.svg" alt="Бронирования">
+                        <picture>
+                            <img src="assets/images/sections/statistics/icon_bookings.svg" alt="Бронирования">
+                        </picture>
                         <figcaption class="figure-caption">
                             <div class="stat-count">5867</div>
                             <div class="stat-name">бронирований</div>
@@ -90,12 +98,12 @@
                     </figure>
                 </li>
             </ul>
-            <img src="assets/images/sections/statistics/chart.svg" alt="График развития проекта">
+            <img src="assets/images/sections/statistics/chart.svg" alt="График развития проекта" class="w-100">
         </div>
     </section>
     <section id="competitors" class="section">
         <div class="container">
-            <h2>Соперничаем с серьезными кампаниями</h2>
+            <h2 class="h1">Соперничаем с серьезными кампаниями</h2>
             <ul class="nav nav-tabs" id="competitors__tabs">
                 <li>
                     <a class="nav-link active" data-toggle="tab" href="#competitors__diagram__content" role="tab" aria-controls="competitors__diagram__content" aria-selected="true">
@@ -260,9 +268,9 @@
                             <h3>Push notification</h3>
                             <ul class="list-style-arrow">
                                 <li>Позволяет получать уведомления на всех типах устройств
-                                    <i class="icon icon_apple"></i>
-                                    <i class="icon icon_windows"></i>
-                                    <i class="icon icon_android"></i>
+                                    <i data-icon="apple"></i>
+                                    <i data-icon="windows"></i>
+                                    <i data-icon="android"></i>
                                 </li>
                                 <li>Позволяет снизить время реакции на события в системе</li>
                                 <li>Нет необходимости разрабатывать отдельное веб-приложение</li>
@@ -312,7 +320,28 @@
         </div>
     </section>
     <section id="payments" class="section">6</section>
-    <section id="multilanguage" class="section">7</section>
+    <section id="multilanguage" class="section">
+        <div class="container">
+            <h2>Мультиязычность с поддержкой языка аккаунта</h2>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <header>
+                        <h3 class="h5">Мультиязычность по домену</h3>
+                        <p>Можно продвигать сайт на разных языках</p>
+                    </header>
+                    <header>
+                        <h3 class="h5">Мультиязычность по сессии</h3>
+                        <p>Можно переключать язык и запоминать выбор внутри любого домена</p>
+                    </header>
+                    <header>
+                        <h3 class="h5">Мультиязычность с привязкой к аккаунту</h3>
+                        <p>Выбранный язык сохраняется в аккаунте. Позволяет делать оповещения и рассылки на языке пользователя</p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="api" class="section">8</section>
 </main>
 

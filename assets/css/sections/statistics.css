@@ -12,6 +12,12 @@
 #list-of-stats {
     text-align: center;
 }
+#list-of-stats picture {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 60px;
+}
 #list-of-stats .figure-caption {
     color: #fff;
 }
