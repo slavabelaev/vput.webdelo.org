@@ -1,3 +1,204 @@
 #competitors {
     background-color: #fff;
 }
+
+#competitors__tabs {
+    text-align: center;
+    max-width: 560px;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 0;
+}
+#competitors .nav-link:focus,
+#competitors .nav-link:hover,
+#competitors .nav-link,
+#competitors .nav-item.show .nav-link,
+#competitors .nav-link.active {
+    border-color: transparent;
+    padding: 0;
+}
+#competitors__tabs img {
+    margin-bottom: 14px;
+}
+
+#competitors__tabs .figure-caption {
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 80%;
+}
+
+#competitors__tabs {
+    margin-bottom: 70px;
+}
+#competitors__tabs .figure {
+    margin-bottom: 0;
+}
+#competitors__tabs .nav-link {
+    position: relative;
+}
+#competitors__tabs .nav-link .figure-caption {
+    transition: .24s;
+}
+#competitors__tabs .nav-link.active .figure-caption {
+    color: #32B1CC;
+}
+#competitors__tabs .nav-link:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: -42px;
+    width: 22px;
+    height: 22px;
+    margin: auto;
+    border: 3px solid #32B1CC;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: #fff 0 0 0 3px inset;
+    transition: .24s;
+}
+#competitors__tabs .nav-link.active:before {
+    background-color: #32B1CC;
+}
+#competitors__tabs {
+    position: relative;
+}
+#competitors__tabs:before {
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    height: 3px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    background-color: #32B1CC;
+}
+
+
+.competitors__diagram {
+    list-style: none;
+    padding: 0;
+}
+.competitors__diagram__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.competitors__diagram__item>picture {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 24px 0;
+    max-width: 250px;
+}
+.competitors__diagram__item>.progress {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 0;
+}
+.competitors__diagram__item .progress-bar {
+    background: linear-gradient(to right, #774C96, #A34C8C);
+}
+.competitors__diagram__item>figcaption {
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px;
+    opacity: 0;
+    transition: .7s ease;
+    transition-delay: .7s;
+}
+.tab-pane.show .competitors__diagram__item>figcaption {
+    opacity: 1;
+}
+
+.competitors__diagram_booking>.progress {
+    width: 100%;
+    max-width: 600px;
+}
+.competitors__diagram_booking .progress-bar {
+    background: linear-gradient(to right, #774C96, #A34C8C);
+}
+.competitors__diagram_booking>figcaption {
+    color: #A24C8C;
+}
+
+.competitors__diagram_airbnb>.progress {
+    width: 66%;
+    max-width: 420px;
+}
+.competitors__diagram_airbnb .progress-bar {
+    background: linear-gradient(to right, #D03868, #F6A95F);
+    transition-delay: .24s;
+}
+.competitors__diagram_airbnb>figcaption {
+    color: #F6A760;
+}
+
+.competitors__diagram_vput>.progress {
+    width: 7%;
+    max-width: 75px;
+}
+.competitors__diagram_vput .progress-bar {
+    background: linear-gradient(to right, #5A469B, #32B2CC);
+    transition-delay: .48s;
+}
+.competitors__diagram_vput>figcaption {
+    color: #32B0CB;
+}
+
+.progress-bar {
+    width: 0;
+    transition: all .7s ease;
+}
+
+.tab-pane.show .progress-bar {
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    #competitors {
+        padding-top: 70px;
+    }
+    .competitors__diagram__item>picture {
+        border-right: 2px solid #7E4C94;
+        justify-content: flex-end;
+        padding: 24px;
+    }
+
+    #competitors__tabs .figure-caption {
+        font-size: 1rem;
+    }
+
+    .competitors__diagram__item {
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+    .competitors__diagram>li:not(:last-child) .competitors__diagram__item:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 250px;
+        border-bottom: 1px solid #D8D8D8;
+    }
+
+    .competitors__diagram__item>.progress {
+        height: 52px;
+    }
+}
+@media (min-width: 1200px) {
+    .competitors__diagram__item>picture {
+        padding: 0 75px;
+        height: 120px;
+        max-width: 350px;
+    }
+    .competitors__diagram>li:not(:last-child) .competitors__diagram__item:before {
+        left: 350px;
+    }
+}

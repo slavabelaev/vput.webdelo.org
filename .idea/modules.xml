@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/vput.webdelo.org.iml" filepath="$PROJECT_DIR$/.idea/vput.webdelo.org.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vput.webdelo.loc/.idea/vput.webdelo.loc.iml" filepath="$PROJECT_DIR$/../vput.webdelo.loc/.idea/vput.webdelo.loc.iml" />
     </modules>
   </component>
 </project>

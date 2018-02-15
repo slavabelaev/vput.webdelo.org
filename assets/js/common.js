@@ -3,7 +3,15 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:[],
+        anchors:[
+            '_home',
+            '_statistics',
+            '_competitors',
+            '_notifications',
+            '_affiliate-program',
+            '_payments',
+            '_multilanguage'
+        ],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: [],
@@ -16,7 +24,7 @@ $(document).ready(function() {
         scrollingSpeed: 700,
         autoScrolling: true,
         fitToSection: true,
-        fitToSectionDelay: 1000,
+        fitToSectionDelay: 1,
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
@@ -51,7 +59,7 @@ $(document).ready(function() {
         paddingTop: 0,
         paddingBottom: 0,
         fixedElements: '.footer',
-        responsiveWidth: 0,
+        responsiveWidth: 768,
         responsiveHeight: 0,
         responsiveSlides: false,
         parallax: false,
@@ -64,12 +72,12 @@ $(document).ready(function() {
         lazyLoading: true,
 
         //events
-        onLeave: function(index, nextIndex, direction){},
-        afterLoad: function(anchorLink, index){},
+        onLeave: function(home, nexthome, direction){},
+        afterLoad: function(anchorLink, home){},
         afterRender: function(){},
         afterResize: function(){},
         afterResponsive: function(isResponsive){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+        afterSlideLoad: function(anchorLink, home, slideAnchor, slidehome){},
+        onSlideLeave: function(anchorLink, home, slidehome, direction, nextSlidehome){}
     });
 });

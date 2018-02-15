@@ -32,3 +32,15 @@ h3, .h3 {
 ul.row {
     list-style: none;
 }
+
+@media (max-width: 768px) {
+    .section {
+        height: initial!important;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    h2, .h2 {
+        font-size: 1.6rem;
+    }
+}

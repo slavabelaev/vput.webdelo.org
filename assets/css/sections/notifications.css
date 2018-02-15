@@ -13,13 +13,13 @@
     background:
             url(../../images/sections/notifications/iPhone_X.png),
             url(../../images/sections/notifications/MacBook.png);
-    background-position: 80% 250%, 300% 85%;
-    background-size: 200px auto, auto 70%;
+    background-position: 80% 250%, 600% 85%;
+    background-size: 30% auto, auto 70%;
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
 
-#notifications.active:before {
+#notifications.active.fp-completely:before {
     background-position: 80% 95%, 150% 85%;
 }
 

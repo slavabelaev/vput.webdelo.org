@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Webdelo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Libraries -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css">
@@ -12,8 +13,8 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <!-- Sections -->
     <link rel="stylesheet" href="assets/css/sections/project.css">
-    <link rel="stylesheet" href="assets/css/sections/project_starter.css">
-    <link rel="stylesheet" href="assets/css/sections/project_statistics.css">
+    <link rel="stylesheet" href="assets/css/sections/home.css">
+    <link rel="stylesheet" href="assets/css/sections/statistics.css">
     <link rel="stylesheet" href="assets/css/sections/competitors.css">
     <link rel="stylesheet" href="assets/css/sections/notifications.css">
     <link rel="stylesheet" href="assets/css/sections/notifications_push.css">
@@ -38,19 +39,19 @@
     </nav>
 </header>
 <main id="main" class="js-fullpage">
-    <section id="project_starter" class="section">
+    <section id="home" class="section">
         <div class="container text-center text-white">
-            <img src="assets/images/sections/project/starter/logo_VPUT.svg" alt="VPUT" class="mb-4">
+            <img src="assets/images/sections/home/logo_VPUT.svg" alt="VPUT" class="mb-4">
             <h1 class="text-uppercase">Cервис автоматизированной аренды <br>апартаментов в Болгарии</h1>
         </div>
     </section>
-    <section id="project_statistics" class="section">
+    <section id="statistics" class="section">
         <div class="container text-white">
             <h2>Лучше всего о нас говорят цифры</h2>
             <ul id="list-of-stats" class="row justify-content-between">
-                <li class="col-sm-6 col-md-3">
+                <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/project/statistics/icon_vendors.svg" alt="Вендоры">
+                        <img src="assets/images/sections/statistics/icon_vendors.svg" alt="Вендоры">
                         <figcaption class="figure-caption">
                             <div class="stat-count">1280</div>
                             <div class="stat-name">вендоров</div>
@@ -58,9 +59,9 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="col-sm-6 col-md-3">
+                <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/project/statistics/icon_apartments.svg" alt="Апартаменты">
+                        <img src="assets/images/sections/statistics/icon_apartments.svg" alt="Апартаменты">
                         <figcaption class="figure-caption">
                             <div class="stat-count">1800</div>
                             <div class="stat-name">апартаментов</div>
@@ -68,9 +69,9 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="col-sm-6 col-md-3">
+                <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/project/statistics/icon_clients.svg" alt="Клиенты">
+                        <img src="assets/images/sections/statistics/icon_clients.svg" alt="Клиенты">
                         <figcaption class="figure-caption">
                             <div class="stat-count">5280</div>
                             <div class="stat-name">клиентов</div>
@@ -78,9 +79,9 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="col-sm-6 col-md-3">
+                <li class="col-6 col-md-3">
                     <figure class="figure">
-                        <img src="assets/images/sections/project/statistics/icon_bookings.svg" alt="Бронирования">
+                        <img src="assets/images/sections/statistics/icon_bookings.svg" alt="Бронирования">
                         <figcaption class="figure-caption">
                             <div class="stat-count">5867</div>
                             <div class="stat-name">бронирований</div>
@@ -89,46 +90,152 @@
                     </figure>
                 </li>
             </ul>
-            <img src="assets/images/sections/project/statistics/chart.svg" alt="График развития проекта">
+            <img src="assets/images/sections/statistics/chart.svg" alt="График развития проекта">
         </div>
     </section>
     <section id="competitors" class="section">
         <div class="container">
             <h2>Соперничаем с серьезными кампаниями</h2>
-            <ul id="list-of-competitors" class="row">
-                <li class="col-md-4">
-                    <figure class="figure">
-                        <img src="assets/images/sections/competitors/logo_Booking.com.svg" alt="Booking.com">
-                        <figcaption class="figure-caption row">
-                            <div class="col-6"><i class="icon icon_calendar"></i>1996 г.</div>
-                            <div class="col-6"><i class="icon icon_user"></i>1500 +</div>
-                        </figcaption>
-                    </figure>
+            <ul class="nav nav-tabs" id="competitors__tabs">
+                <li>
+                    <a class="nav-link active" data-toggle="tab" href="#competitors__diagram__content" role="tab" aria-controls="competitors__diagram__content" aria-selected="true">
+                        <figure class="figure">
+                            <img src="/assets/images/sections/competitors/investments.svg" alt="Инвестиции" class="figure-img">
+                            <figcaption class="figure-caption">Инвестиции <br>в проект</figcaption>
+                        </figure>
+                    </a>
                 </li>
-                <li class="col-md-4">
-                    <figure class="figure">
-                        <img src="assets/images/sections/competitors/logo_airbnb.svg" alt="airbnb">
-                        <figcaption class="figure-caption row">
-                            <div class="col-6"><i class="icon icon_calendar"></i>2008 г.</div>
-                            <div class="col-6"><i class="icon icon_user"></i>~200+ </div>
-                        </figcaption>
-                    </figure>
+                <li>
+                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">
+                        <figure class="figure">
+                            <img src="/assets/images/sections/competitors/workers.svg" alt="Сотрудники" class="figure-img">
+                            <figcaption class="figure-caption">Кол-во <br>сотрудников</figcaption>
+                        </figure>
+                    </a>
                 </li>
-                <li class="col-md-4">
-                    <figure class="figure">
-                        <img src="assets/images/sections/competitors/logo_VPUT.svg" alt="VPUT">
-                        <figcaption class="figure-caption row">
-                            <div class="col-6"><i class="icon icon_calendar"></i>2014 г.</div>
-                            <div class="col-6"><i class="icon icon_user"></i>20</div>
-                        </figcaption>
-                    </figure>
+                <li>
+                    <a class="nav-link" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">
+                        <figure class="figure">
+                            <img src="/assets/images/sections/competitors/apartaments.svg" alt="Апартаменты" class="figure-img">
+                            <figcaption class="figure-caption">Кол-во <br>апартаментов</figcaption>
+                        </figure>
+                    </a>
                 </li>
             </ul>
 
-            <figure id="competitors__chart" class="figure">
-                <img src="assets/images/sections/competitors/chart.svg" alt="Инвестиции" class="figure-img">
-                <figcaption class="h4 text-center">ИНВЕСТИЦИИ</figcaption>
-            </figure>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane active" id="competitors__diagram__content" role="tabpanel" aria-labelledby="home-tab">
+                    <ul class="competitors__diagram">
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_booking">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_Booking.com.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>€300 млн</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_airbnb">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_airbnb.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>€200 млн</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_vput">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_VPUT.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>€0.2 млн</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <ul class="competitors__diagram">
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_booking">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_Booking.com.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>10,000+</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_airbnb">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_airbnb.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>7,500+</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_vput">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_VPUT.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>100+</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <ul class="competitors__diagram">
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_booking">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_Booking.com.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>1,6 млн.</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_airbnb">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_airbnb.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>1 млн.</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="competitors__diagram__item competitors__diagram_vput">
+                                <picture class="brand-logo">
+                                    <img src="/assets/images/sections/competitors/logo_VPUT.svg" alt="">
+                                </picture>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                                <figcaption>1,800+</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <section id="notifications" class="section">

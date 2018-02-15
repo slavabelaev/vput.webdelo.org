@@ -1,9 +1,9 @@
 body {
-    background-image: url(../../images/sections/project/background.jpg);
+    background-image: url(../../images/background.jpg);
     background-size: cover;
     background-position: center;
 }
-#project_starter,
-#project_statistics {
+#home,
+#statistics {
     background-color: transparent;
 }
