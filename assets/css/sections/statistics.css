@@ -1,14 +1,6 @@
-.fp-viewing-_statistics #header {
-    filter: brightness(0) invert(1);
-}
-
 #statistics {
-    transition: background .7s ease;
-}
-#statistics.active.fp-completely {
     background-color: rgba(0,0,0, .5);
 }
-
 #list-of-stats {
     text-align: center;
 }
@@ -34,4 +26,10 @@
     height: 20px;
     border-radius: 50%;
     border: 1px solid #fff;
+}
+
+@media (min-width: 768px) {
+    .fp-viewing-_statistics #header {
+        filter: brightness(0) invert(1);
+    }
 }

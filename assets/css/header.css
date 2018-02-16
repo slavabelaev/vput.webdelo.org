@@ -12,3 +12,10 @@
 #header {
     transition: all 1s ease;
 }
+
+@media (max-width: 767px) {
+    #header {
+        background-color: #fff;
+        box-shadow: rgba(0,0,0,.1) 0 5px 5px;
+    }
+}

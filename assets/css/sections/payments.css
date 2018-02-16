@@ -1,0 +1,149 @@
+#payments {
+    background-color: #f6f6f6;
+    color: #434343;
+}
+
+#payments h2 {
+    color: #262626;
+}
+
+#payments .list-of-payment-methods {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#payments .list-of-payment-methods>li {
+    margin-right: 1.25rem;
+}
+
+#list-of-advantage {
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+#list-of-advantage>li {
+    flex: 1;
+}
+#list-of-advantage .figure-caption {
+    font-size: 1rem;
+}
+
+#two-stage-payments__list-of-steps,
+#payments .list-of-payment-methods,
+#payments__fast-methods {
+    margin-bottom: 2rem;
+}
+
+#payments .list-of-payment-methods {
+    justify-content: center;
+}
+#payments .list-of-payment-methods>li {
+    margin-bottom: 12px;
+}
+
+#two-stage-payments__list-of-steps {
+    list-style: none;
+    position: relative;
+}
+#two-stage-payments__list-of-steps:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    top: 18px;
+    bottom: 18px;
+    left: 15px;
+    background: linear-gradient(to bottom, #E67963, #A24C8C, #36A8C8);
+}
+#two-stage-payments__list-of-steps>li {
+    position: relative;
+    margin-bottom: 2rem;
+}
+#two-stage-payments__list-of-steps>li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -30px;
+    width: 14px;
+    height: 14px;
+    background-position: center;
+    background-size: 14px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+}
+#two-stage-payments__list-of-steps>li:nth-child(1):before {
+    background-image: url(/assets/images/sections/payments/icon__orange-point.svg);
+}
+#two-stage-payments__list-of-steps>li:nth-child(2):before {
+    background-image: url(/assets/images/sections/payments/icon_purple-point.svg);
+}
+#two-stage-payments__list-of-steps>li:nth-child(3):before {
+    background-image: url(/assets/images/sections/payments/icon_blue-point.svg);
+}
+
+#payments h2,
+#payments h3,
+#payments h4 {
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    #payments>.container {
+        padding-top: 100px;
+    }
+}
+@media (min-width: 992px) {
+    #payments h2 {
+        text-align: left;
+    }
+    #payments {
+        position: relative;
+    }
+    #payments:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background:
+            url(/assets/images/sections/payments/AMERICAN_EXPRESS.svg),
+            url(/assets/images/sections/payments/MacBook.png);
+        background-position: 75% 200%, 200% bottom;
+        background-repeat: no-repeat;
+        background-size: 254px auto, auto 90vh;
+        transition: .7s ease;
+    }
+    #payments.active.fp-completely:before {
+        background-position: 90% center, 150% bottom;
+    }
+    #payments .list-of-payment-methods {
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 1200px) {
+    #payments.active.fp-completely:before {
+        background-position: 75% center, 100% bottom;
+    }
+}
+
+@media (max-width: 767px) {
+    #list-of-advantage {
+        flex-direction: column;
+    }
+    #list-of-advantage .figure {
+        display: flex;
+        align-items: center;
+    }
+    #list-of-advantage .figure-img {
+        margin-right: 20px;
+        margin-bottom: 0;
+        width: 40px;
+    }
+}

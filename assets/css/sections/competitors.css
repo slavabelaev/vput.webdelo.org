@@ -71,7 +71,7 @@
     height: 3px;
     left: 0;
     right: 0;
-    width: 80%;
+    width: 75%;
     margin: auto;
     background-color: #32B1CC;
 }
@@ -190,6 +190,10 @@
 
     .competitors__diagram__item>.progress {
         height: 52px;
+    }
+
+    #competitors__tabs:before {
+        width: 80%;
     }
 }
 @media (min-width: 1200px) {

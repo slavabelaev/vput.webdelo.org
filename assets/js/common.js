@@ -59,7 +59,7 @@ $(document).ready(function() {
         paddingTop: 0,
         paddingBottom: 0,
         fixedElements: '.footer',
-        responsiveWidth: 768,
+        responsiveWidth: 992,
         responsiveHeight: 0,
         responsiveSlides: false,
         parallax: false,

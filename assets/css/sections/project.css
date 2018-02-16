@@ -1,9 +1,0 @@
-body {
-    background-image: url(../../images/background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#home,
-#statistics {
-    background-color: transparent;
-}
