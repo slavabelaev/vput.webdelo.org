@@ -1,4 +1,4 @@
-#statistics {
+#_statistics {
     background-color: rgba(0,0,0, .5);
 }
 #list-of-stats {
@@ -9,6 +9,16 @@
     align-items: flex-end;
     justify-content: center;
     height: 60px;
+}
+#list-of-stats:hover .figure {
+    opacity: .5;
+}
+#list-of-stats:hover .figure:hover {
+    opacity: 1;
+}
+#list-of-stats .figure {
+    cursor: pointer;
+    transition: .4s;
 }
 #list-of-stats .figure-caption {
     color: #fff;
@@ -28,8 +38,20 @@
     border: 1px solid #fff;
 }
 
+#statistics__chart-wrapper {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+#statistics__chart-wrapper.initialized {
+    opacity: 1;
+}
+
+#statistics__chart-wrapper {
+    height: 280px;
+}
+
 @media (min-width: 768px) {
-    .fp-viewing-_statistics #header {
+    .fp-viewing-statistics #header {
         filter: brightness(0) invert(1);
     }
 }

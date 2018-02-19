@@ -1,10 +1,9 @@
-#notifications {
+#_notifications {
     background-color: #F3F3F3;
-    background-image: url(../../images/sections/notifications/background.svg);
     position: relative;
 }
 
-#notifications h3 {
+#_notifications h3 {
     margin-bottom: 2.5rem;
 }
 
@@ -66,24 +65,40 @@
     margin-bottom: 40px;
 }
 
+
+
+#devices__MackBook,
+#devices__iPhone-X,
+#devices {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background-size: 30% auto, auto 70%;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+#devices__MackBook {
+    background-position: 80% 250%;
+    background: url(../../images/sections/notifications/iPhone_X.png);
+}
+#devices__iPhone-X {
+    background-position: 600% 85%;
+    background: url(../../images/sections/notifications/MacBook.png);
+}
+
+#_notifications.active.fp-completely #devices__MackBook {
+    background-position: 150% 85%;
+}
+#_notifications.active.fp-completely #devices__iPhone-X {
+    background-position: 150% 85%;
+}
+
+
 @media (min-width: 767px) {
-    #notifications:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 50%;
-        top: 0;
-        bottom: 0;
-        background:
-                url(../../images/sections/notifications/iPhone_X.png),
-                url(../../images/sections/notifications/MacBook.png);
-        background-position: 80% 250%, 600% 85%;
-        background-size: 30% auto, auto 70%;
-        background-repeat: no-repeat;
-        transition: all 1s ease;
-    }
-    #notifications.active.fp-completely:before {
-        background-position: 80% 95%, 150% 85%;
+    #_notifications {
+        background-image: url(../../images/sections/notifications/background.svg);
     }
 }
 @media (max-width: 768px) {

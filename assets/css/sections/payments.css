@@ -1,19 +1,19 @@
-#payments {
+#_payments {
     background-color: #f6f6f6;
     color: #434343;
 }
 
-#payments h2 {
+#_payments h2 {
     color: #262626;
 }
 
-#payments .list-of-payment-methods {
+#_payments .list-of-payment-methods {
     list-style: none;
     padding-left: 0;
     display: flex;
     flex-wrap: wrap;
 }
-#payments .list-of-payment-methods>li {
+#_payments .list-of-payment-methods>li {
     margin-right: 1.25rem;
 }
 
@@ -33,15 +33,15 @@
 }
 
 #two-stage-payments__list-of-steps,
-#payments .list-of-payment-methods,
-#payments__fast-methods {
+#_payments .list-of-payment-methods,
+#_payments__fast-methods {
     margin-bottom: 2rem;
 }
 
-#payments .list-of-payment-methods {
+#_payments .list-of-payment-methods {
     justify-content: center;
 }
-#payments .list-of-payment-methods>li {
+#_payments .list-of-payment-methods>li {
     margin-bottom: 12px;
 }
 
@@ -87,25 +87,25 @@
     background-image: url(/assets/images/sections/payments/icon_blue-point.svg);
 }
 
-#payments h2,
-#payments h3,
-#payments h4 {
+#_payments h2,
+#_payments h3,
+#_payments h4 {
     margin-bottom: 1.25rem;
     font-weight: bold;
 }
 @media (min-width: 768px) {
-    #payments>.container {
+    #_payments>.container {
         padding-top: 100px;
     }
 }
 @media (min-width: 992px) {
-    #payments h2 {
+    #_payments h2 {
         text-align: left;
     }
-    #payments {
+    #_payments {
         position: relative;
     }
-    #payments:before {
+    #_payments:before {
         content: "";
         position: absolute;
         left: 0;
@@ -120,15 +120,15 @@
         background-size: 254px auto, auto 90vh;
         transition: .7s ease;
     }
-    #payments.active.fp-completely:before {
+    #_payments.active.fp-completely:before {
         background-position: 90% center, 150% bottom;
     }
-    #payments .list-of-payment-methods {
+    #_payments .list-of-payment-methods {
         justify-content: flex-start;
     }
 }
 @media (min-width: 1200px) {
-    #payments.active.fp-completely:before {
+    #_payments.active.fp-completely:before {
         background-position: 75% center, 100% bottom;
     }
 }

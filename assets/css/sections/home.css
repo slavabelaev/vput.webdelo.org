@@ -9,21 +9,21 @@ body:before {
     background-size: cover;
     background-position: center;
 }
-#home,
-#statistics {
+#_home,
+#_statistics {
     background-color: transparent;
 }
 @media (min-width: 768px) {
-    .fp-viewing-_home #header {
+    .fp-viewing-home #header {
         filter: brightness(0) invert(1);
     }
 }
 @media (max-width: 767px) {
-    #home {
+    #_home {
         min-height: 100vh;
     }
 
-    #home img {
+    #_home img {
         max-width: 180px;
     }
 }

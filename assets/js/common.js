@@ -1,16 +1,16 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     $('#main.js-fullpage').fullpage({
         //Navigation
         menu: '#menu',
         lockAnchors: false,
         anchors:[
-            '_home',
-            '_statistics',
-            '_competitors',
-            '_notifications',
-            '_affiliate-program',
-            '_payments',
-            '_multilanguage'
+            'home',
+            'statistics',
+            'competitors',
+            'notifications',
+            'affiliate-program',
+            'payments',
+            'multilanguage'
         ],
         navigation: false,
         navigationPosition: 'right',
@@ -72,12 +72,43 @@ $(document).ready(function() {
         lazyLoading: true,
 
         //events
-        onLeave: function(home, nexthome, direction){},
-        afterLoad: function(anchorLink, home){},
+        onLeave: function(home, nexthome, direction){
+
+        },
+        afterLoad: function(anchorLink, home){
+            console.log(this);
+            console.log(anchorLink);
+            $this = $(this);
+
+            switch(anchorLink) {
+                case 'statistics':
+                    if ($this.hasClass('initialized-chart')) {
+                        break;
+                    } else {
+                        $this.addClass('initialized-chart');
+                        window.initStatisticsChart();
+                    }
+                    break;
+            }
+        },
         afterRender: function(){},
         afterResize: function(){},
         afterResponsive: function(isResponsive){},
         afterSlideLoad: function(anchorLink, home, slideAnchor, slidehome){},
         onSlideLeave: function(anchorLink, home, slidehome, direction, nextSlidehome){}
+    });
+
+    $('[data-toggle="tab"]').on('click', function() {
+       var $this = $(this),
+           contentElementId = $this.attr('href');
+
+       $this.closest('.section').attr('data-activated-tab', contentElementId);
+    });
+
+    $('.active[data-toggle="tab"]').each(function(index, element) {
+        var $element = $(element),
+            contentElementId = $element.attr('href');
+
+        $element.closest('.section').attr('data-activated-tab', contentElementId);
     });
 });

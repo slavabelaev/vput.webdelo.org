@@ -1,25 +1,25 @@
-#multilanguage {
+#_multilanguage {
     background-color: #f6f6f6;
 }
 
-#multilanguage .h5 {
+#_multilanguage .h5 {
     font-weight: bold;
 }
 
-#multilanguage p {
+#_multilanguage p {
     font-size: 1.125rem;
     color: #434343;
 }
 
-#multilanguage header>p {
+#_multilanguage header>p {
     margin-bottom: 0;
 }
-#multilanguage header {
+#_multilanguage header {
     margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {
-    #multilanguage h2 {
+    #_multilanguage h2 {
         margin-bottom: 100px;
     }
 }
