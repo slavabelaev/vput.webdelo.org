@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5063ee51-2933-4d6b-8f0c-6471e541440d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_iMessage.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X_app_iMssage__message-1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X_app_iMssage__message-2.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__safari.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__screen.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook__screen_email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari__bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook__notification.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__notification.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sections/notifications.css" afterPath="$PROJECT_DIR$/assets/css/sections/notifications.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/IPhone_X.svg" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/IPhone_X.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari.svg" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="264" column="42" lean-forward="false" selection-start-line="264" selection-start-column="42" selection-end-line="264" selection-end-column="42" />
+            <state relative-caret-position="243">
+              <caret line="256" column="33" lean-forward="false" selection-start-line="256" selection-start-column="33" selection-end-line="256" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#figcaption#0;n#figure#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#figcaption#0;n#figure#0;n#li#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,8 +65,18 @@
       <file leaf-file-name="notifications.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/sections/notifications.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="161" column="40" lean-forward="true" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+            <state relative-caret-position="1124">
+              <caret line="217" column="1" lean-forward="true" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MacBook.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -86,8 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.investments-schema__item&gt;.progress</find>
-      <find>multilanguage</find>
       <find>h3</find>
       <find>70</find>
       <find>#payments .list-of-payment-methods#payments .list-of-payment-methods</find>
@@ -116,6 +123,8 @@
       <find>alert</find>
       <find>.screen</find>
       <find>.screen__safari</find>
+      <find>iPhone-X__apps</find>
+      <find>MackBook</find>
     </findStrings>
     <replaceStrings>
       <replace>figcaption</replace>
@@ -140,6 +149,7 @@
       <replace>#competitors__tabs</replace>
       <replace>.screen__safari</replace>
       <replace>.screen</replace>
+      <replace>iPhone-X__screen</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -182,6 +192,7 @@
         <option value="$PROJECT_DIR$/assets/js/common.js" />
         <option value="$PROJECT_DIR$/assets/js/common.js" />
         <option value="$PROJECT_DIR$/assets/images/sections/notifications/IPhone_X.svg" />
+        <option value="$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/sections/notifications.css" />
         <option value="$PROJECT_DIR$/assets/css/sections/notifications.css" />
@@ -199,10 +210,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="835" />
-    <option name="y" value="127" />
-    <option name="width" value="1093" />
-    <option name="height" value="911" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -424,23 +435,23 @@
       <workItem from="1519117466967" duration="17117000" />
       <workItem from="1519284133485" duration="18610000" />
       <workItem from="1519468364547" duration="21000" />
-      <workItem from="1519637947286" duration="8261000" />
+      <workItem from="1519637947286" duration="18872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148065000" />
+    <option name="totallyTimeSpent" value="158676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="835" y="127" width="1093" height="911" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47882354" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32705882" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47685835" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
@@ -486,13 +497,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/sections/affiliate-program/schema.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/logo_VPUT.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -754,6 +758,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
@@ -772,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="264" column="42" lean-forward="false" selection-start-line="264" selection-start-column="42" selection-end-line="264" selection-end-column="42" />
+        <state relative-caret-position="243">
+          <caret line="256" column="33" lean-forward="false" selection-start-line="256" selection-start-column="33" selection-end-line="256" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#span#0;n#figcaption#0;n#figure#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#figcaption#0;n#figure#0;n#li#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -786,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sections/notifications.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="161" column="40" lean-forward="true" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+        <state relative-caret-position="1124">
+          <caret line="217" column="1" lean-forward="true" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
           <folding />
         </state>
       </provider>
