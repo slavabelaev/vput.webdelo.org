@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5063ee51-2933-4d6b-8f0c-6471e541440d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook__screen_email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari__bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook__notification.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__notification.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sections/notifications.css" afterPath="$PROJECT_DIR$/assets/css/sections/notifications.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/IPhone_X.svg" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/IPhone_X.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/MacBook.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari.svg" afterPath="$PROJECT_DIR$/assets/images/sections/notifications/iPhone_X__app_safari.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,8 +57,8 @@
       <file leaf-file-name="notifications.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/sections/notifications.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1124">
-              <caret line="217" column="1" lean-forward="true" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+            <state relative-caret-position="679">
+              <caret line="121" column="27" lean-forward="false" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -435,15 +427,15 @@
       <workItem from="1519117466967" duration="17117000" />
       <workItem from="1519284133485" duration="18610000" />
       <workItem from="1519468364547" duration="21000" />
-      <workItem from="1519637947286" duration="18872000" />
+      <workItem from="1519637947286" duration="18990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158676000" />
+    <option name="totallyTimeSpent" value="158794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,7 +446,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32705882" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47685835" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4764706" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -798,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sections/notifications.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1124">
-          <caret line="217" column="1" lean-forward="true" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+        <state relative-caret-position="679">
+          <caret line="121" column="27" lean-forward="false" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
           <folding />
         </state>
       </provider>

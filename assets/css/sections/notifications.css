@@ -87,6 +87,7 @@
     overflow: hidden;
     background-image: url(../../images/sections/notifications/MacBook.svg);
     background-size: 100% auto;
+    transform: translateX(-1200px);
     transition: .7s ease;
 }
 #MacBook__screen {
@@ -118,6 +119,7 @@
     right: 0;
     margin: auto;
     overflow: hidden;
+    transform: translateY(800px);
     transition: .7s ease;
 }
 #iPhone-X:after {
