@@ -92,7 +92,7 @@
     background-size: 100% auto;
     transform: translateX(-1045px);
 }
-#devices__MackBook>.screen {
+#devices__MackBook>.screen{
     position: absolute;
     left: 133px;
     right: 133px;
@@ -122,32 +122,49 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-#devices__iPhone-X>.screen {
-    content:"";
+
+#devices__iPhone-X>.screen,
+#devices__iPhone-X>.sms-messages {
     position: absolute;
     top: 15px;
     bottom: 15px;
     left: 24px;
     right: 22px;
     overflow: hidden;
-    background-color: #fff;
-    background-image: url(../../images/sections/notifications/iPhone_X__screen.png);
-    background-position: center 80px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-#devices__iPhone-X>.screen:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+#devices__iPhone-X>.sms-messages {
+    background: #fff;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    top: 117px;
+    bottom: 127px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
 }
-#devices__iPhone-X>.screen:before {
-    background-image: url(../../images/sections/notifications/iPhone_X__safari.svg);
+#devices__iPhone-X>.sms-messages>img {
+    margin-bottom: 8px;
+    opacity: 0;
+    transition: .7s ease;
+    transition-delay: 2s;
+}
+#devices__iPhone-X>.sms-messages>img:nth-child(1) {
+    transition-delay: 2.1s;
+}
+#devices__iPhone-X>.sms-messages>img:nth-child(2) {
+    transform: translateY(105px);
+    transition-delay: 1.4s;
+}
+#devices__iPhone-X>.screen{
+    background-image:
+        url(../../images/sections/notifications/iPhone_X__app_safari.svg),
+        url(../../images/sections/notifications/iPhone_X__app_iMessage.svg);
+    background-size: auto 100%;
+    background-position: center 0, 300px 0;
+    background-repeat: no-repeat;
+    transition: .7s ease;
+    transition-delay: .7s;
 }
 
 .alert_iOS {
@@ -159,7 +176,6 @@
     padding: 0;
     transform: translateY(-150px);
     transition: .48s ease;
-    transition-delay: 1.4s;
 }
 .alert_iOS>.alert__header {
     padding: 8px 18px;
@@ -183,8 +199,8 @@
     padding: 0;
     border-radius: 0;
     transform: translateX(400px);
-    transition: .6s;
-    transition-delay: .6s;
+    transition: .7s;
+    transition-delay: .7s;
 }
 .alert_macOS .alert__image {
     display: flex;
@@ -216,6 +232,7 @@
 }
 .fp-section.active.fp-completely[data-activated-tab="#notifications_push"] .alert_iOS {
     transform: translateY(0);
+    transition-delay: 1.4s;
 }
 .fp-section.active.fp-completely[data-activated-tab="#notifications_push"] #devices__MackBook {
     transform: translateX(-210px) translateY(0);
@@ -227,9 +244,19 @@
 .fp-section.active.fp-completely[data-activated-tab="#notifications_sms"] #devices__iPhone-X {
     transform: scale(.9) translateX(-250px) translateY(50px);
 }
+.fp-section.active.fp-completely[data-activated-tab="#notifications_sms"] #devices__iPhone-X>.screen{
+    background-position: -310px 0, center 0;
+}
+.fp-section.active.fp-completely[data-activated-tab="#notifications_sms"] #devices__iPhone-X>.sms-messages>img {
+    opacity: 1;
+}
+.fp-section.active.fp-completely[data-activated-tab="#notifications_sms"] #devices__iPhone-X>.sms-messages>img:nth-child(2) {
+    transform: translateY(0);
+}
 .fp-section.active.fp-completely[data-activated-tab="#notifications_sms"] #devices__MackBook {
     transform: translateX(-1100px);
 }
+
 
 .fp-section.active.fp-completely[data-activated-tab="#notifications_email"] #devices__iPhone-X {
     transform: scale(1) translateX(-200px) translateY(800px);
