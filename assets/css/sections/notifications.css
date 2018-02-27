@@ -71,6 +71,7 @@
     left: 0;
     top: 0;
     bottom: 0;
+    overflow: hidden;
     z-index: 99;
 }
 #iPhone-X,
@@ -87,8 +88,9 @@
     overflow: hidden;
     background-image: url(../../images/sections/notifications/MacBook.svg);
     background-size: 100% auto;
-    transform: translateX(-1200px);
-    transition: .7s ease;
+    transform: translateX(-800px);
+    transition: .6s;
+    transition-delay: .1s;
 }
 #MacBook__screen {
     position: absolute;
@@ -96,16 +98,22 @@
     top: 46px;
     bottom: 68px;
     left: 132px;
-    background-image: url(../../images/sections/notifications/MacBook__screen.jpg);
-    background-size: 100% 100%;
     overflow: hidden;
 }
+#MacBook__screen__index-page {
+    background-image: url(../../images/sections/notifications/MacBook__screen__index-page.jpg);
+}
+#MacBook__screen__email-page {
+    background-image: url(../../images/sections/notifications/MacBook__screen__email-page.png);
+    transform: translateX(100%);
+}
+
 #MacBook__notification {
     position: absolute;
     top: 53px;
     right: 15px;
     transform: translateX(600px);
-    transition: .6s ease;
+    transition: .7s;
 }
 #iPhone-X {
     display: block;
@@ -120,7 +128,8 @@
     margin: auto;
     overflow: hidden;
     transform: translateY(800px);
-    transition: .7s ease;
+    transition: .6s;
+    transition-delay: .1s;
 }
 #iPhone-X:after {
     content: "";
@@ -144,6 +153,7 @@
     bottom: 23px;
     overflow: hidden;
 }
+#MacBook__screen>div,
 #iPhone-X__screen>div {
     position: absolute;
     left: 0;
@@ -152,7 +162,12 @@
     bottom: 0;
     overflow: hidden;
     background-size: 100%;
-    transition: .6s ease;
+    transition: .7s;
+    transition-delay: .7s;
+}
+#MacBook__screen>div {
+    transition: .7s;
+    transition-delay: 1s;
 }
 #iPhone-X__app_Safari {
     background-image:
@@ -170,11 +185,11 @@
     top: 30px;
     left: 0;
     right: 0;
-    width: 95%;
+    width: 99%;
     margin: auto;
     z-index: 1;
     transform: translateY(-200px);
-    transition: .6s ease;
+    transition: .7s;
 }
 
 #iPhone-X__app_iMessage>.message-box {
@@ -193,32 +208,16 @@
     margin-bottom: 10px;
     opacity: 0;
     transform: translateY(20px);
-    transition: .6s ease;
-    transition-delay: .7s;
+    transition: .7s ease;
+    transition-delay: 1.4s;
 }
 
 #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #MacBook {
-    transform: translateX(-200px);
+    transform: translateX(-300px);
 }
 #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #iPhone-X {
-    transform: scale(.65) translateX(180px) translateY(235px);
+    transform: scale(.65) translateY(235px);
 }
-#_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #MacBook {
-    transform: translateX(-1200px);
-}
-#_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X {
-    transform: scale(1) translateY(30px);
-}
-#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook__screen {
-    background-image: url(../../images/sections/notifications/MacBook__screen_email.png);
-}
-#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook {
-    transform: translateX(0);
-}
-#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #iPhone-X {
-    transform: scale(1) translateY(1200px);
-}
-
 #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #MacBook__notification,
 #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #iPhone-X__notification {
     transform: translateY(0);
@@ -226,6 +225,12 @@
 }
 #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #MacBook__notification {
     transition-delay: .7s;
+}
+#_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #MacBook {
+    transform: translateX(-1200px);
+}
+#_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X {
+    transform: scale(1) translateY(30px);
 }
 #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X__app_Safari {
     transform: translateX(-100%);
@@ -238,10 +243,23 @@
     transform: translateY(0);
 }
 #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X__app_iMessage>.message-box>img:nth-child(1) {
-    transition-delay: 1.4s;
+    transition-delay: 2.1s;
 }
 #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X__app_iMessage>.message-box>img:nth-child(2) {
-    transition-delay: .7s;
+    transition-delay: 1.4s;
+}
+
+#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook__screen__index-page {
+    transform: translateX(-100%);
+}
+#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook__screen__email-page {
+    transform: translateX(0);
+}
+#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook {
+    transform: translateX(-100px);
+}
+#_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #iPhone-X {
+    transform: scale(1) translateY(800px);
 }
 
 .text-blue { color: #14A4D8; }
