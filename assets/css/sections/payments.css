@@ -1,6 +1,7 @@
 #_payments {
     background-color: #f6f6f6;
     color: #434343;
+    overflow: hidden;
 }
 
 #_payments h2 {
