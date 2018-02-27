@@ -4,28 +4,28 @@
     var datasets = {
         vendors: {
             borderColor: '#BBFF81',
-            data: [0, 300, 700, 1280],
+            data: [0, 300, 700, 1661],
             label: 'вендоры',
             fill: false,
             backgroundColor: '#BBFF81'
         },
         apartaments: {
             borderColor: '#58CCEC',
-            data: [0, 400, 900, 1800],
+            data: [0, 400, 900, 1875],
             label: 'апартаменты',
             fill: false,
             backgroundColor: '#58CCEC'
         },
         clients: {
             borderColor: '#D66EBB',
-            data: [0, 700, 2500, 5280],
+            data: [0, 700, 2500, 5250],
             label: 'клиенты',
             fill: false,
             backgroundColor: '#D66EBB'
         },
         bookings: {
             borderColor: '#E67963',
-            data: [0, 800, 2200, 5867],
+            data: [0, 800, 2200, 5812],
             label: 'бронирования',
             fill: false,
             backgroundColor: '#E67963'

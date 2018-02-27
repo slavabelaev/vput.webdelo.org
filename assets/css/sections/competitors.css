@@ -107,12 +107,6 @@
     font-size: 24px;
     font-weight: bold;
     padding: 14px;
-    opacity: 0;
-    transition: .7s ease;
-    transition-delay: .7s;
-}
-.tab-pane.show .competitors__diagram__item>figcaption {
-    opacity: 1;
 }
 
 .competitors__diagram_booking>.progress {
@@ -195,6 +189,15 @@
     #_competitors__tabs:before {
         width: 80%;
     }
+
+    .competitors__diagram__item>figcaption {
+        opacity: 0;
+        transition: .7s ease;
+        transition-delay: .7s;
+    }
+    .tab-pane.show .competitors__diagram__item>figcaption {
+        opacity: 1;
+    }
 }
 @media (min-width: 1200px) {
     .competitors__diagram__item>picture {
@@ -208,5 +211,18 @@
 
     #_competitors__tabs {
         margin-left: 400px;
+    }
+
+    #_competitors h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .competitors__diagram__item>picture {
+        padding: 12px 0;
+    }
+    .competitors__diagram__item>figcaption {
+        padding: 12px 0;
     }
 }

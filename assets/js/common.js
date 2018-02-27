@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
         paddingTop: 0,
         paddingBottom: 0,
         fixedElements: '.footer',
-        responsiveWidth: 992,
+        responsiveWidth: 1200,
         responsiveHeight: 0,
         responsiveSlides: false,
         parallax: false,
@@ -88,6 +88,12 @@ jQuery(document).ready(function($) {
                         $this.addClass('initialized-chart');
                         window.initStatisticsChart();
                     }
+                    break;
+                case 'competitors':
+                    $this.find('[href="#competitors__diagram__content"]').click();
+                    break;
+                case 'notifications':
+                    $this.find('[href="#notifications_push"]').click();
                     break;
             }
         },

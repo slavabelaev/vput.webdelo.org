@@ -1,6 +1,9 @@
 #_statistics {
     background-color: rgba(0,0,0, .5);
 }
+#_statistics h2 {
+    text-transform: uppercase;
+}
 #list-of-stats {
     text-align: center;
 }
@@ -50,7 +53,7 @@
     height: 280px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .fp-viewing-statistics #header {
         filter: brightness(0) invert(1);
     }

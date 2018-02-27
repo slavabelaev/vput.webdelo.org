@@ -1,3 +1,94 @@
 #_affiliate-program {
     background-color: #fff;
 }
+
+#_affiliate-program .diagram img {
+    max-width: 100%;
+}
+
+#_affiliate-program .btn {
+    color: #000;
+    border-radius: 3px;
+    min-width: 130px;
+}
+#step__counter {
+    align-items: center;
+}
+.step__counter__number {
+    color: #C9C9C9;
+    font-size: 3.75rem;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+.step__counter__description {
+    text-align: left;
+}
+#step__counter {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 36px;
+}
+#step__counter>figcaption {
+    display: flex;
+    align-items: center;
+}
+#step__progress .progress {
+    position: relative;
+    height: 5px;
+    max-width: 430px;
+    margin: auto;
+    overflow: initial;
+}
+#step__progress .progress:before,
+#step__progress .progress:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-color: #36A8C8;
+    border-radius: 50%;
+}
+#step__progress .progress:before {
+    left: 0;
+}
+#step__progress .progress:after {
+    right: 0;
+}
+#step__progress .progress-bar {
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #36A8C8, #A24C8C);
+}
+#step__progress__title {
+    color: #646464;
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px)  {
+    #_affiliate-program>.container {
+        padding-top: 50px;
+    }
+    #_affiliate-program h2 {
+        font-size: 3rem;
+    }
+
+    #_affiliate-program .diagram {
+        margin-bottom: 24px;
+        opacity: 0;
+        transition: .7s;
+    }
+    #_affiliate-program .diagram img {
+        max-width: 90%;
+    }
+    #_affiliate-program.fp-completely .diagram {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    #step__counter>figcaption {
+        margin-bottom: 24px;
+    }
+}
