@@ -145,6 +145,9 @@
     }
 }
 @media (min-width: 1200px) {
+    #_payments:before {
+        background-size: auto 90%;
+    }
     #_payments h2 {
         white-space: nowrap;
     }
