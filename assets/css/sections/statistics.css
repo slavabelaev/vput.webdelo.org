@@ -58,3 +58,9 @@
         filter: brightness(0) invert(1);
     }
 }
+
+@media (max-width: 560px) {
+    #_statistics {
+        background-color: #212529;
+    }
+}
