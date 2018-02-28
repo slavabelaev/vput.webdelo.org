@@ -76,8 +76,6 @@ jQuery(document).ready(function($) {
 
         },
         afterLoad: function(anchorLink, home){
-            console.log(this);
-            console.log(anchorLink);
             $this = $(this);
 
             switch(anchorLink) {
@@ -93,6 +91,7 @@ jQuery(document).ready(function($) {
                     $this.find('[href="#competitors__diagram__content"]').click();
                     break;
                 case 'notifications':
+                    console.log(11);
                     $this.find('[href="#notifications_push"]').click();
                     break;
             }
@@ -109,13 +108,6 @@ jQuery(document).ready(function($) {
            contentElementId = $this.attr('href');
 
        $this.closest('.section').attr('data-activated-tab', contentElementId);
-    });
-
-    $('.active[data-toggle="tab"]').each(function(index, element) {
-        var $element = $(element),
-            contentElementId = $element.attr('href');
-
-        $element.closest('.section').attr('data-activated-tab', contentElementId);
     });
 
     AOS.init();

@@ -95,10 +95,12 @@
     font-weight: bold;
 }
 
-@media (min-width: 992px) {
-    #_payments>.container {
-        padding-top: 100px;
+@media (min-width: 767px) {
+    #_payments:before {
+        background-size: auto 90%;
     }
+}
+@media (min-width: 992px) {
     #_payments h2 {
         text-align: left;
     }
@@ -120,7 +122,7 @@
     #_payments:before {
         background-image: url(/assets/images/sections/payments/MacBook.png);
         background-position: bottom right;
-        background-size: auto 90vh;
+        background-size: auto 85%;
         transform: translateX(800px);
     }
     #_payments:after {
@@ -150,7 +152,12 @@
         transform: translateX(0);
     }
     #_payments.active.fp-completely:after {
-        transform: translateX(-100px) translateY(0) rotate(-15deg);
+        transform: translateX(-100px) translateY(50px) rotate(-15deg);
+    }
+}
+@media (min-width: 1440px) {
+    #_payments > .container {
+        padding-top: 100px;
     }
 }
 
@@ -168,5 +175,8 @@
         margin-right: 20px;
         margin-bottom: 0;
         width: 40px;
+    }
+    #list-of-advantage .figure-caption {
+        text-align: left;
     }
 }

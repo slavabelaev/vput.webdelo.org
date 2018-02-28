@@ -53,7 +53,7 @@
     height: 280px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1199px) {
     .fp-viewing-statistics #header {
         filter: brightness(0) invert(1);
     }

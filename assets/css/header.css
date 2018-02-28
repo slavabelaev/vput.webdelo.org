@@ -19,3 +19,11 @@
         box-shadow: rgba(0,0,0,.1) 0 5px 5px;
     }
 }
+@media (max-width: 374px) {
+    #header>.navbar {
+        padding: 2px 1rem;
+    }
+    .logo-delimiter {
+        margin: 0 12px;
+    }
+}
