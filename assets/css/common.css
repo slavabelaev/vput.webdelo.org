@@ -51,23 +51,12 @@ ul.row {
 [data-icon="windows"] { background-image: url(/assets/images/icons/windows.svg); }
 [data-icon="android"] { background-image: url(/assets/images/icons/android.svg); }
 
-/*@media (min-width: 768px) and (max-width: 1200px) {*/
-    /*.section {*/
-        /*height: initial!important;*/
-        /*min-height: 100vh;*/
-    /*}*/
-/*}*/
 @media (min-width: 1400px) {
     h2 {
         font-size: 2.25rem;
     }
 }
 @media (max-width: 768px) {
-    .section {
-        height: initial!important;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
     h1, .h1 {
         font-size: 2rem;
         line-height: 1.5;
@@ -78,5 +67,12 @@ ul.row {
     }
     h3, .h3 {
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 1199px) {
+    .section {
+        height: initial!important;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }

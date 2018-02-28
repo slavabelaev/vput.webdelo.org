@@ -52,8 +52,6 @@
     line-height: 1.75rem;
 }
 .list-style-arrow>li {
-    padding-left: 60px;
-    background: url(../../images/sections/notifications/arrow-right.svg) no-repeat 15px center;
     margin-bottom: 40px;
 }
 
@@ -62,6 +60,24 @@
 .text-orange { color: #FB6E52; }
 .text-yellow { color: #FEE900; }
 
+
+@media(min-width: 1200px) {
+    #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #MacBook {
+        transform: translateX(-300px);
+    }
+    #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #iPhone-X {
+        transform: scale(.65) translateY(250px);
+    }
+    #_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook {
+        transform: translateX(-150px);
+    }
+    #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X {
+        transform: translateY(50px);
+    }
+    #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #MacBook {
+        transform: translateX(-1200px);
+    }
+}
 @media (min-width: 768px) {
     #_notifications {
         background-image: url(../../images/sections/notifications/background.svg);
@@ -214,10 +230,10 @@
     }
 
     #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #MacBook {
-        transform: translateX(-300px);
+        transform: translateX(30px) translateY(20px) scale(.88);
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #iPhone-X {
-        transform: scale(.65) translateY(250px);
+        transform: scale(.65) translateX(100px) translateY(160px);
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #MacBook__notification,
     #_notifications.fp-completely.active[data-activated-tab="#notifications_push"] #iPhone-X__notification {
@@ -228,10 +244,10 @@
         transition-delay: .7s;
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #MacBook {
-        transform: translateX(-1200px);
+        transform: translateX(-1200px) translateY(20px) scale(.88);
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X {
-        transform: scale(1) translateY(50px);
+        transform: scale(1) translateY(30px);
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_sms"] #iPhone-X__app_Safari {
         transform: translateX(-100%);
@@ -257,7 +273,7 @@
         transform: translateX(0);
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #MacBook {
-        transform: translateX(-150px);
+        transform: translateX(70px) translateY(20px) scale(.88);
     }
     #_notifications.fp-completely.active[data-activated-tab="#notifications_email"] #iPhone-X {
         transform: scale(1) translateY(800px);
@@ -272,6 +288,13 @@
 
     #_notifications .tab-content {
         min-height: 380px;
+    }
+}
+@media (min-width: 992px) {
+    .list-style-arrow>li {
+        padding-left: 60px;
+        background: url(../../images/sections/notifications/arrow-right.svg) no-repeat 15px center;
+        margin-bottom: 40px;
     }
 }
 @media (min-width: 1200px) {

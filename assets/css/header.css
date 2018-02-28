@@ -13,7 +13,7 @@
     transition: all 1s ease;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1199px) {
     #header {
         background-color: #fff;
         box-shadow: rgba(0,0,0,.1) 0 5px 5px;

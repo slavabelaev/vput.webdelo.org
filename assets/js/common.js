@@ -117,4 +117,6 @@ jQuery(document).ready(function($) {
 
         $element.closest('.section').attr('data-activated-tab', contentElementId);
     });
+
+    AOS.init();
 });
