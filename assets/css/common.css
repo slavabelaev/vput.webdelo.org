@@ -47,9 +47,9 @@ ul.row {
     background-repeat: no-repeat;
     background-position: center;
 }
-[data-icon="apple"] { background-image: url(/assets/images/icons/apple.svg); }
-[data-icon="windows"] { background-image: url(/assets/images/icons/windows.svg); }
-[data-icon="android"] { background-image: url(/assets/images/icons/android.svg); }
+[data-icon="apple"] { background-image: url(../images/icons/apple.svg); }
+[data-icon="windows"] { background-image: url(../images/icons/windows.svg); }
+[data-icon="android"] { background-image: url(../images/icons/android.svg); }
 
 @media (min-width: 1400px) {
     h2 {

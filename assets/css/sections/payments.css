@@ -79,13 +79,13 @@
     border-radius: 50%;
 }
 #two-stage-payments__list-of-steps>li:nth-child(1):before {
-    background-image: url(/assets/images/sections/payments/icon__orange-point.svg);
+    background-image: url(../../images/sections/payments/icon__orange-point.svg);
 }
 #two-stage-payments__list-of-steps>li:nth-child(2):before {
-    background-image: url(/assets/images/sections/payments/icon_purple-point.svg);
+    background-image: url(../../images/sections/payments/icon_purple-point.svg);
 }
 #two-stage-payments__list-of-steps>li:nth-child(3):before {
-    background-image: url(/assets/images/sections/payments/icon_blue-point.svg);
+    background-image: url(../../images/sections/payments/icon_blue-point.svg);
 }
 
 #_payments h2,
@@ -120,7 +120,7 @@
         transition: .7s ease;
     }
     #_payments:before {
-        background-image: url(/assets/images/sections/payments/MacBook.png);
+        background-image: url(../../images/sections/payments/MacBook.png);
         background-position: bottom right;
         background-size: auto 85%;
         transform: translateX(800px);
@@ -128,7 +128,7 @@
     #_payments:after {
         width: 256px;
         height: 157px;
-        background-image: url(/assets/images/sections/payments/card__american-express.png);
+        background-image: url(../../images/sections/payments/card__american-express.png);
         background-size: 100%;
         transform: translateY(800px) rotate(15deg);
     }
