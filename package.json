@@ -1,8 +1,8 @@
 {
-  "name": "presentation.webdelo.org",
+  "name": "vput.webdelo.org",
   "version": "1.0.0",
-  "description": "App «The Ultimate Guide to Running a Restaurant»",
-  "homepage": "https://belaevslava.github.io/chefhero/dist/index.html",
+  "description": "Landing for service «V.P.U.T.»",
+  "homepage": "https://belaevslava.github.io/vput.webdelo.org/",
   "previews": {
     "directory": "previews",
     "images": [
