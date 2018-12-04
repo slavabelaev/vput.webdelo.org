@@ -29,7 +29,7 @@
       {
         "path": "payments.png",
         "title": "Payments"
-      },
+      }
     ]
   },
   "main": "home.js",
