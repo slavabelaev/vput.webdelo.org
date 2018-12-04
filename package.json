@@ -1,7 +1,37 @@
 {
   "name": "presentation.webdelo.org",
   "version": "1.0.0",
-  "description": "",
+  "description": "App «The Ultimate Guide to Running a Restaurant»",
+  "homepage": "https://belaevslava.github.io/chefhero/dist/index.html",
+  "previews": {
+    "directory": "previews",
+    "images": [
+      {
+        "path": "home.png",
+        "title": "Home"
+      },
+      {
+        "path": "statistics.png",
+        "title": "Statistics"
+      },
+      {
+        "path": "competitors.png",
+        "title": "Competitors"
+      },
+      {
+        "path": "notifications.png",
+        "title": "Notifications"
+      },
+      {
+        "path": "affiliate-program.png",
+        "title": "Affiliate Program"
+      },
+      {
+        "path": "payments.png",
+        "title": "Payments"
+      },
+    ]
+  },
   "main": "home.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
