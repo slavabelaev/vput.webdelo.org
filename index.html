@@ -24,8 +24,17 @@
     <link rel="stylesheet" href="assets/css/sections/api.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <style>
+        body {
+            transition: opacity 1.2s;
+        }
+        body.unvisibility { 
+            opacity: 0; 
+            transition: none;
+        }
+    </style>
 </head>
-<body>
+<body class="unvisibility">
 
 <header id="header" class="fixed-top">
     <nav class="navbar container navbar-light">

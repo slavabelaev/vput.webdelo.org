@@ -20,6 +20,7 @@ body:before {
 @media (min-width: 1199px) {
     .fp-viewing-home #header {
         filter: brightness(0) invert(1);
+        transition: none;
     }
 }
 @media (max-width: 767px) {

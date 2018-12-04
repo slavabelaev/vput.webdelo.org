@@ -1,7 +1,11 @@
 #_affiliate-program {
     background-color: #fff;
 }
-
+#_affiliate-program .diagram {
+    display: block;
+    margin: auto;
+    max-width: 900px;
+}
 #_affiliate-program .diagram img {
     max-width: 100%;
 }

@@ -102,6 +102,8 @@ jQuery(document).ready(function($) {
         afterSlideLoad: function(anchorLink, home, slideAnchor, slidehome){},
         onSlideLeave: function(anchorLink, home, slidehome, direction, nextSlidehome){}
     });
+    
+    $('body').removeClass('unvisibility');
 
     $('[data-toggle="tab"]').on('click', function() {
        var $this = $(this),
