@@ -1,17 +1,1 @@
-<svg width="1349" height="882" viewBox="0 0 1349 882" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>background</title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-10727 0)">
-<g id="background">
-<g id="Rectangle 6" opacity="0.0372509">
-<use xlink:href="#path0_fill" transform="matrix(0.809017 -0.587785 0.587785 0.809017 10275 874.854)" fill="#36A8C8"/>
-</g>
-<g id="Rectangle 6 Copy" opacity="0.0685575">
-<use xlink:href="#path0_fill" transform="matrix(0.809017 -0.587785 0.587785 0.809017 10875 -554.508)" fill="#E67963"/>
-</g>
-</g>
-</g>
-<defs>
-<path id="path0_fill" fill-rule="evenodd" d="M 0 100C 0 44.7715 44.7715 0 100 0L 747 0C 802.228 0 847 44.7715 847 100L 847 777C 847 832.228 802.228 877 747 877L 100 877C 44.7715 877 0 832.228 0 777L 0 100Z"/>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1349" height="882" version="1.1" viewBox="0 0 1349 882"><title>background</title><desc>Created using Figma</desc><g id="Canvas" transform="translate(-10727 0)"><g id="background"><g id="Rectangle 6" opacity=".037"><use fill="#36A8C8" transform="matrix(0.809017 -0.587785 0.587785 0.809017 10275 874.854)" xlink:href="#path0_fill"/></g><g id="Rectangle 6 Copy" opacity=".069"><use fill="#E67963" transform="matrix(0.809017 -0.587785 0.587785 0.809017 10875 -554.508)" xlink:href="#path0_fill"/></g></g></g><defs><path id="path0_fill" fill-rule="evenodd" d="M 0 100C 0 44.7715 44.7715 0 100 0L 747 0C 802.228 0 847 44.7715 847 100L 847 777C 847 832.228 802.228 877 747 877L 100 877C 44.7715 877 0 832.228 0 777L 0 100Z"/></defs></svg>
