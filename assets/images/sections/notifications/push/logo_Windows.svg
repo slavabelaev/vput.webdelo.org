@@ -1,14 +1,1 @@
-<svg width="18" height="18" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>Windows_logo</title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-8734 -424)">
-<g id="Windows_logo">
-<g id="Shape">
-<use xlink:href="#path0_fill" transform="translate(8734 424)" fill="#00ADEF"/>
-</g>
-</g>
-</g>
-<defs>
-<path id="path0_fill" fill-rule="evenodd" d="M 8.24414 1.41913L 17.998 0L 17.998 8.53345L 8.24414 8.61063L 8.24414 1.41913ZM 7.35645 1.54977L 0 2.54849L 0.00683594 8.66513L 7.35938 8.62338L 7.35645 1.54977ZM 7.35742 16.5182L 7.35254 9.43842L 0.00488281 9.39093L 0.00488281 15.5105L 7.35742 16.5182ZM 17.998 18L 18 9.50497L 8.23047 9.48907L 8.24414 16.6276L 17.998 18Z"/>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" version="1.1" viewBox="0 0 18 18"><title>Windows_logo</title><desc>Created using Figma</desc><g id="Canvas" transform="translate(-8734 -424)"><g id="Windows_logo"><g id="Shape"><use fill="#00ADEF" transform="translate(8734 424)" xlink:href="#path0_fill"/></g></g></g><defs><path id="path0_fill" fill-rule="evenodd" d="M 8.24414 1.41913L 17.998 0L 17.998 8.53345L 8.24414 8.61063L 8.24414 1.41913ZM 7.35645 1.54977L 0 2.54849L 0.00683594 8.66513L 7.35938 8.62338L 7.35645 1.54977ZM 7.35742 16.5182L 7.35254 9.43842L 0.00488281 9.39093L 0.00488281 15.5105L 7.35742 16.5182ZM 17.998 18L 18 9.50497L 8.23047 9.48907L 8.24414 16.6276L 17.998 18Z"/></defs></svg>
